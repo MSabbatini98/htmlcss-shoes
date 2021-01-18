@@ -4,9 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: white;
-    font-family: 'Rubik Mono One', sans-serif;
     background-color: blue;
+    font-family: 'Rubik Mono One', sans-serif;
 
 }
 
@@ -16,6 +15,7 @@ nav {
     position: fixed;
     right: 10px;
     top: 0;
+    z-index: 5;
 }
 
 nav ul li {
@@ -27,6 +27,43 @@ nav ul li {
 }
 a:link {
     text-decoration: none;
+    transition: 0.5s;
+}
+/* fine header */
+
+/* inizio main  */
+.section_class {
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+
 }
 
- /* fine header */
+h2 {
+    font-size: 300%;
+    text-transform: capitalize;
+}
+
+.foto_e_didascalia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: dashed 5px white;
+    text-align: center;
+
+}
+#section_1{
+    background-color: red;
+    color: yellow;
+}
+#section_2{
+    background-color: green;
+    color: yellow;
+
+}
+#section_3{
+    background-color: yellow;
+    color: green;
+
+}
