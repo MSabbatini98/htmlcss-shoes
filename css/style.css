@@ -4,9 +4,29 @@
     box-sizing: border-box;
 }
 body{
-    background-color: blue;
+    background-color: white;
     font-family: 'Rubik Mono One', sans-serif;
+    background-color: blue;
 
 }
 
 /* inizio header */
+nav {
+    list-style: none;
+    position: fixed;
+    right: 10px;
+    top: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 100%;
+    padding : 10.5px 15px ;
+    margin : 10px;
+}
+a:link {
+    text-decoration: none;
+}
+
+ /* fine header */
